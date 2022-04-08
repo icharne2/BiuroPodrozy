@@ -1,2 +1,2 @@
 # BiuroPodrozy
-School project about travel (manly JS)
+School project about travel (mainly JS)
