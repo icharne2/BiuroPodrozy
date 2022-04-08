@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" href="IMG/logo.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        
+        <meta name="author" content="Meg Paskowski 3i">
+        <title> Traveler </title>
+	</head>
+	<body class="no-gutters">
+        <header class="col-sm-12">
+                <nav class="navbar navbar-dark navbar-expand-md col-sm-10">
+                     <a class="navbar-brand d-inline-block" href="index.html"><img src="IMG/logo.png" class="d-inline-block mr-2" alt="logo">Traveler</a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="mainmenu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Strona Główna</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="promocje.html">Promocje</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="oferty.html">Oferty</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            <div class="logo col-sm-12">
+                <a href="index.html">
+                    <img src="IMG/logo1.png" class="col-sm-8 col-md-6 col-lg-5 d-none d-sm-inline-block" alt="logo2">
+                </a>
+            </div>
+        </header>
+        <main>
+            <div id="quotes" class="d-sm-block col-sm-12 col-md-7">
+                Turyści nie wiedzą gdzie byli, podróżnicy nie wiedzą gdzie będą. – Paul Theroux
+            </div>
+            <div class="text row col-sm-12 col-md-8">
+                <section class="col-sm-12">
+                    <h2> Poznaj nas! </h2>
+                    <p>
+                        Jesteśmy małą firmą, jednak z wielką historią - na rynku istniejemy już od 15 lat.
+                        Naszym zadaniem do którego przykładamy ogromną uwagę jest zaplanować dla ciebie wyjazd który będziesz wspominać do końca życia!
+                        Jeśli jednak coś pójdzie nie tak, zapewniamy zwrot kosztów. O naszych wycieczkach dowiesz się z zakładki oferty, polecamy również nasz basen promocji w zakładce obok.
+                        Jeśli jednak nie jestes jeszcze zdecydowany, sprawdź naszą galerię.
+                    </p>
+                </section>
+            </div>
+            <section id="oferty" class="col-md-10 offset-md-1">
+                <h3> Zobacz nasze propozycje </h3>
+                <div class="text row col-12">
+                     <div class="dania oferta col-xl-5 mt-4">
+                            <h4>Dania</h4>
+                            <p>
+                               Dania to magiczny skrawek Skandynawii, który od lat zachwyca swym pięknem i nietuzinkową atmosferą. Mieszkańcy Danii uchodzą za jednych z najszczęśliwszych ludzi na świecie.
+                            </p>
+                         <a href="oferty.html">Dowiedz się więcej!</a>
+                        </div>
+                    <div class="norwegia oferta col-xl-6 mt-4">
+                            <h4>Norwegia</h4>
+                            <p>
+                                Norwegia jest najbardziej wysuniętym na północ krajem Europy. Położona jest w zachodniej i północnej część Półwyspu Skandynawskiego. Graniczy ze Szwecją, Finlandią i Rosją. Do Norwegii należą także terytoria: Svalbard, Jan Mayen oraz dwie antarktyczne wyspy Bouveta i Piotra I.
+                            </p>
+                        <a href="oferty.html">Dowiedz się więcej!</a>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="szwecja oferta col-xl-6 mt-4">
+                            <h4>Szwecja</h4>
+                            <p>
+                                Szwecja jest krajem Położonym w Europie Północnej na półwyspie Skandynawskim. Graniczy w Finlandią i Norwegią. Szwecja południowa ma charakter nizinny, środkowa i północna natomiast są górzyste. Na północnym-wschodzie leży Wyżyna Lapońska. Rzeki płyną z zachodu na wschód i wpływają do Zatoki Botnickiej. Teren Szwecji charakteryzuje się ogromną ilością jezior.
+                            </p>
+                        <a href="oferty.html">Dowiedz się więcej!</a>
+                    </div>
+                    <div class="islandia oferta col-xl-5 mt-4">
+                            <h4>Islandia</h4>
+                            <p>
+                                Islandia to prawdziwy raj przede wszystkim dla miłośników pieszych wędrówek i dzikiej przyrody. Bajeczne kolorowe góry, potężne wodospady, niebezpieczne wulkany i błękitne lodowce, liczne zatoki i fiordy, a do tego jedna z najpiękniejszych plaż świata. 
+                            </p>
+                        <a href="oferty.html">Dowiedz się więcej!</a>
+                    </div>
+                </div>
+            </section>
+            <div class="text row col-sm-12 col-md-8">
+                <section class="col-sm-12">
+                    <h3> Nie zwlekaj! </h3>
+                    <p>Dzisiaj jest już:
+                        <span id="today"></span>
+                    </p>
+                    <p>
+                        I wakacji zostało tylko: 
+                        <span id="wakacje"></span>
+                        , więc szybko zaplanuj swój czas.
+                    </p>
+                </section>
+            </div>
+            <div id="banner" class="banner col-md-8">
+                <div class="bannertx col-7 col-md-4">
+                    <h1 id="title">Norwegia</h1>
+                    <h4 id="zdanie"> Kraj śniegu i zorzy polarnej </h4>
+                </div>
+            </div>
+        </main>
+        <footer class="col-sm-12 mt-3 o-gutters">
+            <div class="col-sm-4 d-inline-block">
+                <p>
+                    Privacy Policy | Copyright
+                </p>
+                <p>
+                    Copyright 2021 &copy; Meg Paskowski 3i
+                </p>
+            </div>
+            <section class="col-sm-4 d-inline-block">
+               <h6> Odwiedź nas! </h6>
+                
+                <a href="https://twitter.com/explore"><img src="IMG/twitter.png" alt="twitter"></a>
+                <a href="https://www.instagram.com/?hl=pl"><img src="IMG/instagram.png" alt="instargam"></a>
+                <a href="https://www.facebook.com"><img src="IMG/facebook.png" alt="facebook"></a>
+                <a href="https://www.youtube.com"><img src="IMG/youtube.png" alt="youtube"></a>
+            </section>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/kursor"></script>
+        <script src="skrypt.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" href="IMG/logo.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        
+        <meta name="author" content="Meg Paskowski 3i">
+        <title> Traveler </title>
+	</head>
+	<body class="no-gutters">
+        <header class="col-sm-12">
+                <nav class="navbar navbar-dark navbar-expand-md col-sm-10">
+                     <a class="navbar-brand d-inline-block" href="index.html"><img src="IMG/logo.png" class="d-inline-block mr-2" alt="logo">Traveler</a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="mainmenu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Strona Główna</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="promocje.html">Promocje</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="oferty.html">Oferty</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            <div class="logo col-sm-12">
+                <a href="index.html">
+                    <img src="IMG/logo1.png" class="col-sm-8 col-md-6 col-lg-5 d-none d-sm-inline-block" alt="logo2">
+                </a>
+            </div>
+        </header>
+        <main>
+             <div id="quotes" class="d-sm-block col-sm-12 col-md-7">
+                Turyści nie wiedzą gdzie byli, podróżnicy nie wiedzą gdzie będą. – Paul Theroux
+            </div>
+            <div class="oferty_podst row col-md-8 col-xl-6">
+                <img id="image" src="IMG/oferta1.jpg" alt="zdjecie_kraju">
+                    <article class="col-12">
+                        <h3 id="title">Norwegia</h3>
+                        <p>Cena wycieczki: <span id="price"> 3 000 </span> zł.</p>
+                        <p>Opis:</p>
+                        <p id="describe">
+                            Norwegia to kraj dzikiej i nieokiełznanej przyrody. To państwo dwóch pór roku i zorzy polarnej, miejsce, gdzie góry i morze łączą się w przepięknej symbiozie zapierających dech w piersiach krajobrazów. Górzyste regiony obfitujące w szerokie płaskowyże i wspaniałe szczyty, a uformowane w okresie lodowcowym fiordy są unikalnym zjawiskiem w skali globu. Natura w Norwegii tworzy arcydzieła, którym żaden turysta nie może się oprzeć.",
+                            "Malownicze Królestwo Danii, będące jednocześnie najmniejszym państwem Skandynawii, położone jest w północnej części Europy. Dania to piękny kraj o ciekawej historii, który turystów zachwyca niepowtarzalnym klimatem i krajobrazami.
+                            <br>
+                            <br>
+                            Norwegia jest też krajem niekończących się rzek i potężnych wodospadów, znanych nie tylko wszystkim podróżnikom. Liczba tych cudów natury idzie w setki - tu znajduje się dziewięć z dwudziestu najwyższych wodospadów. Wśród nich króluje Mardalsfossen, który spada kaskadami o łącznej długości ponad sześciuset metrów do jeziora Eikedalsvatnet. Choć widok ten można podziwiać wyłącznie latem.
+                        </p>
+                    </article>
+                        <div class="strzalka col-2">
+                            <input type="image" id="prev" src="IMG/prawa.png" alt="strzlka">
+                        </div>
+                        <div class="strzalka col-2">
+                            <input type="image" id="next" src="IMG/lewa.png" alt="strzalka">
+                        </div>
+            </div>
+        </main>
+        <footer class="col-sm-12 mt-3 o-gutters">
+            <div class="col-sm-4 d-inline-block">
+                <p>
+                    Privacy Policy | Copyright
+                </p>
+                <p>
+                    Copyright 2021 &copy; Meg Paskowski 3i
+                </p>
+            </div>
+            <section class="col-sm-4 d-inline-block">
+               <h6> Odwiedź nas! </h6>
+                
+                <a href="https://twitter.com/explore"><img src="IMG/twitter.png" alt="twitter"></a>
+                <a href="https://www.instagram.com/?hl=pl"><img src="IMG/instagram.png" alt="instargam"></a>
+                <a href="https://www.facebook.com"><img src="IMG/facebook.png" alt="facebook"></a>
+                <a href="https://www.youtube.com"><img src="IMG/youtube.png" alt="youtube"></a>
+            </section>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/kursor"></script>
+        <script src="skrypt.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

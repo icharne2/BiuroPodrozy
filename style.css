@@ -1,0 +1,468 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: Lemonada-VariableFont_wght;
+	src: url(Fonts/Lemonada-VariableFont_wght.ttf);
+}
+
+@font-face{
+	font-family: LifeSavers-ExtraBold;
+	src: url(Fonts/LifeSavers-ExtraBold.ttf);
+}
+
+@font-face{
+	font-family: Montserrat-Regular;
+	src: url(Fonts/Montserrat-Regular.ttf);
+}
+
+body{
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    background-color: rgb(31, 30, 31, 1);
+    color: white;
+}
+
+header{
+    font-size: 19px;
+}
+
+nav{
+    background-color: rgb(31, 30, 31, 0.9);
+    margin: 0 auto;
+}
+
+.navbar-brand img{
+    height: 50px;
+    width: auto;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+   height: auto;
+}
+
+.text h2{
+    font-family: LifeSavers-ExtraBold;
+}
+
+.text h3{
+    font-family: LifeSavers-ExtraBold;
+    font-size: 33px;
+}
+
+.text h4{
+    font-family: LifeSavers-ExtraBold;
+}
+
+header{
+    background-image: url(IMG/wallpaper.jpg);
+    background-color: darkseagreen; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+}
+
+#quotes{
+    font-weight: bold;
+    color: rgb(0, 0, 0, 0.7);
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    height: 100px;
+    padding: 15px;
+    border: 1px solid rgb(0, 0, 0, 0.8);
+    background-color: rgb(255, 255, 255, 0.4);
+    position: relative;
+    z-index: 1;
+    top: -40px;
+}
+
+main{
+    min-height: 650px;
+}
+
+main .text{
+    margin: 0 auto;
+    text-align: center;
+    min-height: 250px;
+    line-height: 30px;
+}
+
+#oferty h3{
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 0px;
+    font-family: LifeSavers-ExtraBold;
+}
+
+#oferty{
+    padding-bottom: 30px;
+}
+
+.oferta{
+    padding: 10px;
+    margin: 10px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.oferta h4{
+    font-family: LifeSavers-ExtraBold;
+    font-size: 40px;
+}
+
+.oferta a{
+    color: rgb(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.oferta a:hover{
+    text-decoration: underline;
+}
+
+.szwecja{
+    background-image: url(IMG/szwecja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dania{
+    background-image: url(IMG/dania.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.norwegia{
+    background-image: url(IMG/norwegia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.islandia{
+    background-image: url(IMG/islandia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kontakt{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.kontakt h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: LifeSavers-ExtraBold;
+}
+
+#kontakt img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+form{
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255, 0.4);
+    border: 1px solid black;
+    text-align: justify;
+    height: 530px;
+    line-height: 40px;
+    padding: 20px;
+    min-width: 450px;
+    max-width: 500px;
+}
+
+form input{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(31, 30, 31, 0.8);
+    min-width: 220px; 
+    border: none;
+    float: right;
+    color: rgb(255, 255, 255, 0.4);
+    outline: none;
+}
+
+textarea{
+    background-color: rgb(31, 30, 31, 0.8);
+    border: none;
+    width: 100%;
+    padding-left: 10px;
+    outline: none;
+}
+
+.zdu{
+    max-width: 450px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+footer{
+    border-top: 1px solid rgb(255, 255, 255, 0.3);
+    padding-top: 10px;
+    min-height: 150px;
+    text-align: center;
+}
+
+footer img{
+    height: 30px;
+    width: auto;
+}
+
+.oferty_podst{
+    width: 100%;
+    min-height: 800px;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: left;
+}
+
+.oferty_podst h3{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: LifeSavers-ExtraBold;
+}
+
+.oferty_podst img{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-radius: 30px;
+    height: auto;
+    display: block;
+}
+
+.strzalka{
+    float: left;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.strzalka input{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    outline: none;
+}
+
+.strzalka input:hover{
+    box-shadow: 0px 0px 5px white;
+}
+
+.oferty_podst p{
+    margin: 20px;
+}
+
+.banner{
+    margin: 0 auto;
+    height: 400px;
+    background-image: url(IMG/zorza.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px black;
+}
+
+.bannertx{
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bannertx h1{
+    font-family: Lemonada-VariableFont_wght;
+    font-size: 55px;
+}
+
+.galeria{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.promka{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.promka h2{
+    font-family: LifeSavers-ExtraBold;
+    font-size: 50px;
+}
+
+.promka_zdu{
+    height: 550px; 
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.opis_promka {
+    background-color: rgb(255, 255, 255, 0.5);
+    border: 2px dashed white;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#title2{
+    font-family: LifeSavers-ExtraBold;
+    font-size: 33px;
+    text-align: center;
+}
+
+#rezerwuj{
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 17px;
+    background-color: rgb(31, 30, 31, 0.8); 
+    height: 50px;
+    width: 220px;
+    padding: 10px;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.opis_promka a{
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.opis_promka a:hover{
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 0 0 3px rgb(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.galeria h2{
+    font-family: LifeSavers-ExtraBold;
+    font-size: 40px;
+}
+
+
+/* Galeria - kartki */
+
+            .galery{
+                overflow: hidden;
+                height: auto;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .card{
+              position: relative;
+              box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.4);
+              margin: 0 50px;
+              margin-bottom: 50px;
+            }
+
+            .card-box {
+              position: relative;
+              border-radius: 5px;
+              overflow: hidden;
+              min-width: 200px;
+              max-width: 40%;
+              min-height: 300px;
+              max-width: 400px;
+              background-color: rgb(255, 255, 255, 0.6);
+            }
+
+            .card .image {
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              border-radius: 5px;
+              background-position: center center;
+
+              transition: 300ms;
+            }
+
+            .card .title {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              text-align: right;
+              padding: 40px 20px 15px;
+              font-size: 2rem;
+            }
+
+            .card .kraj {
+              font-size: 0.8rem;
+              opacity: 0.6;
+            }
+
+            .card::before,
+            .card::after {
+              content: '';
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              right: 0;
+              left: 0;
+              background-color: rgb(255, 255, 255, 0.6);
+              z-index: -1;
+              border-radius: 5px;
+
+              transition: transform 300ms;
+            }
+
+            .card:hover::before {
+              transform: rotate(6deg);
+              box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.4);
+            }
+
+            .card:hover::after {
+              transform: rotate(-7deg);
+              box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.4);
+            }
+
+            .card:hover .image {
+              top: 10px;
+              left: 10px;
+              right: 10px;
+              bottom: 80px;
+              background-position: bottom center;
+            }
+
+            .card:hover .title {
+              color: #333333;
+            }
+
+
+
+
+
+
